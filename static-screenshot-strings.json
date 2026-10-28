@@ -1,0 +1,1769 @@
+{
+  "results": [
+    {
+      "path": "D:\\Tencent\\Weixin\\Weixin.exe",
+      "bytes": 3128360,
+      "sha256": "932125cf49bd995345d2c3b1ace0ca8b6cfe5af9ab3f61413a4816a3845312ea",
+      "scan_method": "ordinary Python read-only byte/string scan; not REA decompilation",
+      "pe_layout": {
+        "machine": "0x8664",
+        "optional_magic": "0x20b",
+        "image_base": "0x140000000",
+        "sections": [
+          {
+            "name": ".text",
+            "virtual_size": 2103807,
+            "rva": 4096,
+            "raw_size": 2103808,
+            "file_offset": 1024
+          },
+          {
+            "name": ".rdata",
+            "virtual_size": 704564,
+            "rva": 2109440,
+            "raw_size": 705024,
+            "file_offset": 2104832
+          },
+          {
+            "name": ".data",
+            "virtual_size": 100544,
+            "rva": 2818048,
+            "raw_size": 68096,
+            "file_offset": 2809856
+          },
+          {
+            "name": ".pdata",
+            "virtual_size": 87576,
+            "rva": 2920448,
+            "raw_size": 88064,
+            "file_offset": 2877952
+          },
+          {
+            "name": ".gxfg",
+            "virtual_size": 11920,
+            "rva": 3010560,
+            "raw_size": 12288,
+            "file_offset": 2966016
+          },
+          {
+            "name": ".tls",
+            "virtual_size": 25,
+            "rva": 3022848,
+            "raw_size": 512,
+            "file_offset": 2978304
+          },
+          {
+            "name": "_RDATA",
+            "virtual_size": 500,
+            "rva": 3026944,
+            "raw_size": 512,
+            "file_offset": 2978816
+          },
+          {
+            "name": ".rsrc",
+            "virtual_size": 114664,
+            "rva": 3031040,
+            "raw_size": 114688,
+            "file_offset": 2979328
+          },
+          {
+            "name": ".reloc",
+            "virtual_size": 23300,
+            "rva": 3145728,
+            "raw_size": 23552,
+            "file_offset": 3094016
+          }
+        ]
+      },
+      "ascii_match_count": 0,
+      "ascii_matches": [],
+      "chinese_counts": [
+        {
+          "term": "截图",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "截图",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "长截图",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "长截图",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "马赛克",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "马赛克",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "贴图",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "贴图",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "屏幕截图",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "屏幕截图",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "矩形",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "矩形",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "提取文字",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "提取文字",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "识别文字",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "识别文字",
+          "encoding": "utf-16le",
+          "count": 0
+        }
+      ],
+      "chinese_samples": [],
+      "screenshot_label_region": [],
+      "limitations": [
+        "ASCII 连续可打印字节扫描与已列出的中文词精确编码扫描。",
+        "中文每词每编码最多 30 个样本；count 为整文件匹配数。",
+        "文件偏移是原文件位置；RVA 根据 PE 节表推导，不是调用地址。",
+        "字符串存在不能证明执行、调用关系、算法或功能可独立加载。",
+        "不搜索压缩/加密字节的明文，不断言未命中的词不存在于整个程序。"
+      ]
+    },
+    {
+      "path": "D:\\Tencent\\Weixin\\4.1.15.56\\Weixin.dll",
+      "bytes": 204305968,
+      "sha256": "e0428a7b691853de496532523c2c09aa095f90941c37c9f4cfb3f137f3c66556",
+      "scan_method": "ordinary Python read-only byte/string scan; not REA decompilation",
+      "pe_layout": {
+        "machine": "0x8664",
+        "optional_magic": "0x20b",
+        "image_base": "0x180000000",
+        "sections": [
+          {
+            "name": ".text",
+            "virtual_size": 124895479,
+            "rva": 4096,
+            "raw_size": 124895744,
+            "file_offset": 1024
+          },
+          {
+            "name": ".rdata",
+            "virtual_size": 62397624,
+            "rva": 124903424,
+            "raw_size": 62397952,
+            "file_offset": 124896768
+          },
+          {
+            "name": ".data",
+            "virtual_size": 9855464,
+            "rva": 187301888,
+            "raw_size": 9382912,
+            "file_offset": 187294720
+          },
+          {
+            "name": ".pdata",
+            "virtual_size": 6166644,
+            "rva": 197160960,
+            "raw_size": 6167040,
+            "file_offset": 196677632
+          },
+          {
+            "name": ".gxfg",
+            "virtual_size": 16032,
+            "rva": 203329536,
+            "raw_size": 16384,
+            "file_offset": 202844672
+          },
+          {
+            "name": ".qtmetad",
+            "virtual_size": 749,
+            "rva": 203345920,
+            "raw_size": 1024,
+            "file_offset": 202861056
+          },
+          {
+            "name": ".qtmimed",
+            "virtual_size": 336838,
+            "rva": 203350016,
+            "raw_size": 336896,
+            "file_offset": 202862080
+          },
+          {
+            "name": ".tls",
+            "virtual_size": 6781,
+            "rva": 203689984,
+            "raw_size": 7168,
+            "file_offset": 203198976
+          },
+          {
+            "name": "_RDATA",
+            "virtual_size": 500,
+            "rva": 203698176,
+            "raw_size": 512,
+            "file_offset": 203206144
+          },
+          {
+            "name": "malloc_h",
+            "virtual_size": 398,
+            "rva": 203702272,
+            "raw_size": 512,
+            "file_offset": 203206656
+          },
+          {
+            "name": ".rsrc",
+            "virtual_size": 114148,
+            "rva": 203706368,
+            "raw_size": 114176,
+            "file_offset": 203207168
+          },
+          {
+            "name": ".reloc",
+            "virtual_size": 973688,
+            "rva": 203821056,
+            "raw_size": 973824,
+            "file_offset": 203321344
+          }
+        ]
+      },
+      "ascii_match_count": 91,
+      "ascii_matches": [
+        {
+          "file_offset": "0x908a000",
+          "encoding": "ascii",
+          "text": "gScreenshotShortcutKey",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x908ba00"
+        },
+        {
+          "file_offset": "0x908a0b0",
+          "encoding": "ascii",
+          "text": "gScreenShotHideWindow",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x908bab0"
+        },
+        {
+          "file_offset": "0x930dfb0",
+          "encoding": "ascii",
+          "text": "g_kv_ask_ai_screen_shot_user_agreement",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x930f9b0"
+        },
+        {
+          "file_offset": "0x930dfd8",
+          "encoding": "ascii",
+          "text": "clicfg_yuanbao_screenshot_agreement_version",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x930f9d8"
+        },
+        {
+          "file_offset": "0x930e0b0",
+          "encoding": "ascii",
+          "text": "clicfg_yuanbao_screenshot_agreement_content",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x930fab0"
+        },
+        {
+          "file_offset": "0x930e1b0",
+          "encoding": "ascii",
+          "text": "clicfg_screenshot_ask_ai_type",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x930fbb0"
+        },
+        {
+          "file_offset": "0x937c0a0",
+          "encoding": "ascii",
+          "text": "longscreenshot_use_grabwindow",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937daa0"
+        },
+        {
+          "file_offset": "0x937c0d8",
+          "encoding": "ascii",
+          "text": "longscreenshoter_opencvworker_thread",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937dad8"
+        },
+        {
+          "file_offset": "0x937c100",
+          "encoding": "ascii",
+          "text": "longscreenshoter_grab_thread",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937db00"
+        },
+        {
+          "file_offset": "0x937c120",
+          "encoding": "ascii",
+          "text": "longscreenshoter_splice_thread",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937db20"
+        },
+        {
+          "file_offset": "0x937c168",
+          "encoding": "ascii",
+          "text": "wechat_longscreenshot",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937db68"
+        },
+        {
+          "file_offset": "0x937c190",
+          "encoding": "ascii",
+          "text": "wechat_longscreenshot_",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937db90"
+        },
+        {
+          "file_offset": "0x937e350",
+          "encoding": "ascii",
+          "text": "screenshot_use_getwindowrect",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937fd50"
+        },
+        {
+          "file_offset": "0x937e3b0",
+          "encoding": "ascii",
+          "text": "screenshot_qrcode",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937fdb0"
+        },
+        {
+          "file_offset": "0x937e3d8",
+          "encoding": "ascii",
+          "text": "ScreenShot_",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x937fdd8"
+        },
+        {
+          "file_offset": "0x9382fbb",
+          "encoding": "ascii",
+          "text": "class ScreenshotUtils {",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x93849bb"
+        },
+        {
+          "file_offset": "0x9383af4",
+          "encoding": "ascii",
+          "text": "new ScreenshotUtils();",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x93854f4"
+        },
+        {
+          "file_offset": "0x9383b10",
+          "encoding": "ascii",
+          "text": "wescreenshot_",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x9385510"
+        },
+        {
+          "file_offset": "0x93f7b50",
+          "encoding": "ascii",
+          "text": "pc_forbid_screenshot",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x93f9550"
+        },
+        {
+          "file_offset": "0x93f7c48",
+          "encoding": "ascii",
+          "text": "screenshot_status",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x93f9648"
+        },
+        {
+          "file_offset": "0x93f7c60",
+          "encoding": "ascii",
+          "text": "screenshot_expire_ts",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x93f9660"
+        },
+        {
+          "file_offset": "0x93f7c78",
+          "encoding": "ascii",
+          "text": "weshot_disable",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x93f9678"
+        },
+        {
+          "file_offset": "0x97d6e18",
+          "encoding": "ascii",
+          "text": "clicfg_pc_screenshot_toolbar_collapse",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97d8818"
+        },
+        {
+          "file_offset": "0x97eb4c0",
+          "encoding": "ascii",
+          "text": "screenshot_hdr_tonemap_win",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97ecec0"
+        },
+        {
+          "file_offset": "0x97ee5c0",
+          "encoding": "ascii",
+          "text": "weshot_toolbar_button_disable_style",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97effc0"
+        },
+        {
+          "file_offset": "0x97ee5e8",
+          "encoding": "ascii",
+          "text": "weshot_toolbar_button_style",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97effe8"
+        },
+        {
+          "file_offset": "0x97ee620",
+          "encoding": "ascii",
+          "text": "aimosaic_button_style",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97f0020"
+        },
+        {
+          "file_offset": "0x97ee668",
+          "encoding": "ascii",
+          "text": "longscreenshot_toolbar_button_size",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97f0068"
+        },
+        {
+          "file_offset": "0x97ee690",
+          "encoding": "ascii",
+          "text": "longscreenshot_menu_view_style",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97f0090"
+        },
+        {
+          "file_offset": "0x97ee6c8",
+          "encoding": "ascii",
+          "text": "screenshot_toolbar_button_size",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97f00c8"
+        },
+        {
+          "file_offset": "0x97ee760",
+          "encoding": "ascii",
+          "text": "screenshot_toolbar_style",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97f0160"
+        },
+        {
+          "file_offset": "0x97eec40",
+          "encoding": "ascii",
+          "text": "WeChatScreenshotFormat",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97f0640"
+        },
+        {
+          "file_offset": "0x97f1310",
+          "encoding": "ascii",
+          "text": "ScreenShotPinWindow",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97f2d10"
+        },
+        {
+          "file_offset": "0x97f1728",
+          "encoding": "ascii",
+          "text": "ScreenShotPinWindow_%d",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x97f3128"
+        },
+        {
+          "file_offset": "0x99a7180",
+          "encoding": "ascii",
+          "text": "kScreenShot",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x99a8b80"
+        },
+        {
+          "file_offset": "0x9b672e0",
+          "encoding": "ascii",
+          "text": "screenshotKeepCurWin",
+          "truncated": false,
+          "section": ".rdata",
+          "rva": "0x9b68ce0"
+        },
+        {
+          "file_offset": "0xb2acd9f",
+          "encoding": "ascii",
+          "text": "    Your screenshots may contain private and personal information. Safeguard it to prevent leaks, illegal use, or infringement of others' legitimate rights and interests. See <a href=\"https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/P2GHeJgblR0JftRj\">\"Ask AI\" Feature Usage Guidelines</a>.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2ae99f"
+        },
+        {
+          "file_offset": "0xb2b0d1e",
+          "encoding": "ascii",
+          "text": "Screenshot",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2b291e"
+        },
+        {
+          "file_offset": "0xb2bc987",
+          "encoding": "ascii",
+          "text": "When it is enabled, Weixin's main window won't appear during screen sharing, screen mirroring, or screenshots via other apps.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2be587"
+        },
+        {
+          "file_offset": "0xb2bcc89",
+          "encoding": "ascii",
+          "text": "Weixin main window will be hidden during screenshots or screen recording via other apps.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2be889"
+        },
+        {
+          "file_offset": "0xb2bf0c4",
+          "encoding": "ascii",
+          "text": "Hide window screenshot",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c0cc4"
+        },
+        {
+          "file_offset": "0xb2bf0e4",
+          "encoding": "ascii",
+          "text": "Keep current window when clicking the screenshot button",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c0ce4"
+        },
+        {
+          "file_offset": "0xb2bf124",
+          "encoding": "ascii",
+          "text": "Keep window screenshot",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c0d24"
+        },
+        {
+          "file_offset": "0xb2c0ae2",
+          "encoding": "ascii",
+          "text": "Your device settings restrict screenshots for this app. Contact your network administrator or IT support for assistance.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c26e2"
+        },
+        {
+          "file_offset": "0xb2c0bda",
+          "encoding": "ascii",
+          "text": "Scrolling screenshot",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c27da"
+        },
+        {
+          "file_offset": "0xb2c0bef",
+          "encoding": "ascii",
+          "text": "Screenshot interrupted. Return to the interruption point to continue scrolling.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c27ef"
+        },
+        {
+          "file_offset": "0xb2c0c3f",
+          "encoding": "ascii",
+          "text": "Maximum length reached. Unable to continue screenshot.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c283f"
+        },
+        {
+          "file_offset": "0xb2c0d2d",
+          "encoding": "ascii",
+          "text": "Mosaic",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c292d"
+        },
+        {
+          "file_offset": "0xb2c5df0",
+          "encoding": "ascii",
+          "text": "- Screenshots can be blurred easily.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c79f0"
+        },
+        {
+          "file_offset": "0xb2c5f57",
+          "encoding": "ascii",
+          "text": "- Blur screenshots with one click.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c7b57"
+        },
+        {
+          "file_offset": "0xb2c604c",
+          "encoding": "ascii",
+          "text": "- Blur screenshots with one click.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c7c4c"
+        },
+        {
+          "file_offset": "0xb2c613b",
+          "encoding": "ascii",
+          "text": "- Blur screenshots easily",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c7d3b"
+        },
+        {
+          "file_offset": "0xb2c6222",
+          "encoding": "ascii",
+          "text": "- Added the option to hide the Weixin window for screenshots by default.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c7e22"
+        },
+        {
+          "file_offset": "0xb2c62d8",
+          "encoding": "ascii",
+          "text": "- Added the option to hide the WeChat window for screenshots by default.",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c7ed8"
+        },
+        {
+          "file_offset": "0xb2c66a7",
+          "encoding": "ascii",
+          "text": "- Pin screenshots to desktop",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c82a7"
+        },
+        {
+          "file_offset": "0xb2c672c",
+          "encoding": "ascii",
+          "text": "- Blur screenshots easily",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c832c"
+        },
+        {
+          "file_offset": "0xb2c6802",
+          "encoding": "ascii",
+          "text": "- Pin screenshots to desktop",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c8402"
+        },
+        {
+          "file_offset": "0xb2c6a48",
+          "encoding": "ascii",
+          "text": "- Scrolling screenshots are supported; ",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c8648"
+        },
+        {
+          "file_offset": "0xb2c6ac8",
+          "encoding": "ascii",
+          "text": "- Scrolling screenshots are supported; ",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c86c8"
+        },
+        {
+          "file_offset": "0xb2c7117",
+          "encoding": "ascii",
+          "text": "- Take scrolling screenshots",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb2c8d17"
+        },
+        {
+          "file_offset": "0xb3b0efd",
+          "encoding": "ascii",
+          "text": "weshot::graphics::window_filter_t",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b2afd"
+        },
+        {
+          "file_offset": "0xb3b0fe8",
+          "encoding": "ascii",
+          "text": "mmui::ScreenshotView",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b2be8"
+        },
+        {
+          "file_offset": "0xb3b0ffd",
+          "encoding": "ascii",
+          "text": "ScreenshotWillStart",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b2bfd"
+        },
+        {
+          "file_offset": "0xb3b1012",
+          "encoding": "ascii",
+          "text": "ScreenshotDidFinish",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b2c12"
+        },
+        {
+          "file_offset": "0xb3b11e8",
+          "encoding": "ascii",
+          "text": "weshot::OpenCVWorker",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b2de8"
+        },
+        {
+          "file_offset": "0xb3b13d8",
+          "encoding": "ascii",
+          "text": "weshot::GrabWorker",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b2fd8"
+        },
+        {
+          "file_offset": "0xb3b1568",
+          "encoding": "ascii",
+          "text": "weshot::SpliceWorker",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b3168"
+        },
+        {
+          "file_offset": "0xb3b1600",
+          "encoding": "ascii",
+          "text": "weshot::LongScreenShoter",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b3200"
+        },
+        {
+          "file_offset": "0xb3b1638",
+          "encoding": "ascii",
+          "text": "weshot::CombinedToolButton",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b3238"
+        },
+        {
+          "file_offset": "0xb3b1a08",
+          "encoding": "ascii",
+          "text": "weshot::WeShotEditormenu",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b3608"
+        },
+        {
+          "file_offset": "0xb3b1ac2",
+          "encoding": "ascii",
+          "text": "long_screenshot",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b36c2"
+        },
+        {
+          "file_offset": "0xb3b1af2",
+          "encoding": "ascii",
+          "text": "aimosaic_enter",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b36f2"
+        },
+        {
+          "file_offset": "0xb3b1b01",
+          "encoding": "ascii",
+          "text": "aimosaic_leave",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b3701"
+        },
+        {
+          "file_offset": "0xb3b1c90",
+          "encoding": "ascii",
+          "text": "weshot::WeShotEditorSubmenu",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b3890"
+        },
+        {
+          "file_offset": "0xb3b1cd6",
+          "encoding": "ascii",
+          "text": "aimosaic_enter",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b38d6"
+        },
+        {
+          "file_offset": "0xb3b1ce5",
+          "encoding": "ascii",
+          "text": "aimosaic_leave",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b38e5"
+        },
+        {
+          "file_offset": "0xb3b1d90",
+          "encoding": "ascii",
+          "text": "weshot::WeShotLongScreenshotmenu",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b3990"
+        },
+        {
+          "file_offset": "0xb3b1e00",
+          "encoding": "ascii",
+          "text": "mmui::ScreenShotPinWindow",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b3a00"
+        },
+        {
+          "file_offset": "0xb3b2498",
+          "encoding": "ascii",
+          "text": "weshot::ScreenShoter",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b4098"
+        },
+        {
+          "file_offset": "0xb3b254c",
+          "encoding": "ascii",
+          "text": "long_screenshot",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b414c"
+        },
+        {
+          "file_offset": "0xb3b257c",
+          "encoding": "ascii",
+          "text": "aimosaic_enter",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b417c"
+        },
+        {
+          "file_offset": "0xb3b258b",
+          "encoding": "ascii",
+          "text": "aimosaic_leave",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b418b"
+        },
+        {
+          "file_offset": "0xb3b2968",
+          "encoding": "ascii",
+          "text": "weshot::WeShot",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b4568"
+        },
+        {
+          "file_offset": "0xb3b29d8",
+          "encoding": "ascii",
+          "text": "weshot::CoverAnimationWidget",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b45d8"
+        },
+        {
+          "file_offset": "0xb3b2a78",
+          "encoding": "ascii",
+          "text": "weshot::AiMosaicButton",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b4678"
+        },
+        {
+          "file_offset": "0xb3b2bd0",
+          "encoding": "ascii",
+          "text": "weshot::ButtonGroup",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b47d0"
+        },
+        {
+          "file_offset": "0xb3b2cb0",
+          "encoding": "ascii",
+          "text": "weshot::ColorPanel",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b48b0"
+        },
+        {
+          "file_offset": "0xb3b2d58",
+          "encoding": "ascii",
+          "text": "weshot::FontSelect",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b4958"
+        },
+        {
+          "file_offset": "0xb3b2e08",
+          "encoding": "ascii",
+          "text": "weshot::SizeSelect",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3b4a08"
+        },
+        {
+          "file_offset": "0xb3b9660",
+          "encoding": "ascii",
+          "text": "mmui::ScreenShotClientService",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3bb260"
+        },
+        {
+          "file_offset": "0xb3bb397",
+          "encoding": "ascii",
+          "text": "HiddenWhenScreenShot",
+          "truncated": false,
+          "section": ".data",
+          "rva": "0xb3bcf97"
+        }
+      ],
+      "chinese_counts": [
+        {
+          "term": "截图",
+          "encoding": "utf-8",
+          "count": 16
+        },
+        {
+          "term": "截图",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "长截图",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "长截图",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "马赛克",
+          "encoding": "utf-8",
+          "count": 2
+        },
+        {
+          "term": "马赛克",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "贴图",
+          "encoding": "utf-8",
+          "count": 4
+        },
+        {
+          "term": "贴图",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "屏幕截图",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "屏幕截图",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "矩形",
+          "encoding": "utf-8",
+          "count": 24
+        },
+        {
+          "term": "矩形",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "提取文字",
+          "encoding": "utf-8",
+          "count": 6
+        },
+        {
+          "term": "提取文字",
+          "encoding": "utf-16le",
+          "count": 0
+        },
+        {
+          "term": "识别文字",
+          "encoding": "utf-8",
+          "count": 0
+        },
+        {
+          "term": "识别文字",
+          "encoding": "utf-16le",
+          "count": 0
+        }
+      ],
+      "chinese_samples": [
+        {
+          "term": "截图",
+          "file_offset": "0xb2d0e43",
+          "encoding": "utf-8",
+          "context": "如你的截图中包含你与他人的隐私和个人信息，请注意保管，避免泄露、违法使用或者侵害他人的合法权益。详见<a href=\"https://support.",
+          "section": ".data",
+          "rva": "0xb2d2a43"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2d4942",
+          "encoding": "utf-8",
+          "context": "截图",
+          "section": ".data",
+          "rva": "0xb2d6542"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e1c8e",
+          "encoding": "utf-8",
+          "context": "隐藏窗口截图",
+          "section": ".data",
+          "rva": "0xb2e388e"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e1ca2",
+          "encoding": "utf-8",
+          "context": "点击截图按钮时保留当前窗口",
+          "section": ".data",
+          "rva": "0xb2e38a2"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e1cd7",
+          "encoding": "utf-8",
+          "context": "保留窗口截图",
+          "section": ".data",
+          "rva": "0xb2e38d7"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e33c9",
+          "encoding": "utf-8",
+          "context": "设备环境不允许当前应用截图，可联系网管或IT人员确认。",
+          "section": ".data",
+          "rva": "0xb2e4fc9"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e346f",
+          "encoding": "utf-8",
+          "context": "滚动截图",
+          "section": ".data",
+          "rva": "0xb2e506f"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e3476",
+          "encoding": "utf-8",
+          "context": "截图中断，返回中断位置继续滚动",
+          "section": ".data",
+          "rva": "0xb2e5076"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e34c5",
+          "encoding": "utf-8",
+          "context": "已达最大长度，无法继续截图",
+          "section": ".data",
+          "rva": "0xb2e50c5"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e8118",
+          "encoding": "utf-8",
+          "context": "- 截图可一键打码。",
+          "section": ".data",
+          "rva": "0xb2e9d18"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e8482",
+          "encoding": "utf-8",
+          "context": "- 截图可置顶在桌面；",
+          "section": ".data",
+          "rva": "0xb2ea082"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e8509",
+          "encoding": "utf-8",
+          "context": "- 截图可一键打码；",
+          "section": ".data",
+          "rva": "0xb2ea109"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e85d8",
+          "encoding": "utf-8",
+          "context": "- 截图可置顶在桌面；",
+          "section": ".data",
+          "rva": "0xb2ea1d8"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e87fd",
+          "encoding": "utf-8",
+          "context": "- 可滚动截图；",
+          "section": ".data",
+          "rva": "0xb2ea3fd"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e885a",
+          "encoding": "utf-8",
+          "context": "- 可滚动截图；",
+          "section": ".data",
+          "rva": "0xb2ea45a"
+        },
+        {
+          "term": "截图",
+          "file_offset": "0xb2e8ed9",
+          "encoding": "utf-8",
+          "context": "- 可滚动截图。",
+          "section": ".data",
+          "rva": "0xb2eaad9"
+        },
+        {
+          "term": "马赛克",
+          "file_offset": "0xb2e338a",
+          "encoding": "utf-8",
+          "context": "打马赛克",
+          "section": ".data",
+          "rva": "0xb2e4f8a"
+        },
+        {
+          "term": "马赛克",
+          "file_offset": "0xb2e355e",
+          "encoding": "utf-8",
+          "context": "马赛克",
+          "section": ".data",
+          "rva": "0xb2e515e"
+        },
+        {
+          "term": "贴图",
+          "file_offset": "0xb2d4090",
+          "encoding": "utf-8",
+          "context": "[贴图号名片]",
+          "section": ".data",
+          "rva": "0xb2d5c90"
+        },
+        {
+          "term": "贴图",
+          "file_offset": "0xb2d9c44",
+          "encoding": "utf-8",
+          "context": "贴图号",
+          "section": ".data",
+          "rva": "0xb2db844"
+        },
+        {
+          "term": "贴图",
+          "file_offset": "0xb2e31a9",
+          "encoding": "utf-8",
+          "context": "贴图号名片",
+          "section": ".data",
+          "rva": "0xb2e4da9"
+        },
+        {
+          "term": "贴图",
+          "file_offset": "0xb2e3607",
+          "encoding": "utf-8",
+          "context": "贴图号 · %s",
+          "section": ".data",
+          "rva": "0xb2e5207"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e4327e",
+          "encoding": "utf-8",
+          "context": ".75,13 C8.33578644,13 8,12.6642136 8,12.25 C8,11.8357864 8.33578644,11.5 8.75,11.5 Z\" id=\"矩形\" fill=\"#000000\" opacity=\"0.300000012\"></path>",
+          "section": ".rdata",
+          "rva": "0x8e44c7e"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e432c5",
+          "encoding": "utf-8",
+          "context": "        <rect id=\"矩形\" fill=\"#000000\" opacity=\"0.300000012\" x=\"2\" y=\"11.5\" width=\"4\" height=\"1.5\" rx=\"0.75\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e44cc5"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e433fc",
+          "encoding": "utf-8",
+          "context": ".75,18 C8.33578644,18 8,17.6642136 8,17.25 C8,16.8357864 8.33578644,16.5 8.75,16.5 Z\" id=\"矩形\" fill=\"#000000\" opacity=\"0.300000012\"></path>",
+          "section": ".rdata",
+          "rva": "0x8e44dfc"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e43443",
+          "encoding": "utf-8",
+          "context": "        <rect id=\"矩形\" fill=\"#000000\" opacity=\"0.300000012\" x=\"2\" y=\"16.5\" width=\"4\" height=\"1.5\" rx=\"0.75\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e44e43"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e43550",
+          "encoding": "utf-8",
+          "context": ".5522847,8 21,8 L9,8 C8.44771525,8 8,7.55228475 8,7 C8,6.44771525 8.44771525,6 9,6 Z\" id=\"矩形\" fill=\"#000000\" opacity=\"0.5\"></path>",
+          "section": ".rdata",
+          "rva": "0x8e44f50"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e4358f",
+          "encoding": "utf-8",
+          "context": "        <rect id=\"矩形\" fill=\"#000000\" opacity=\"0.5\" x=\"2\" y=\"6\" width=\"4\" height=\"2\" rx=\"1\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e44f8f"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e46ae2",
+          "encoding": "utf-8",
+          "context": ".75,13 C8.33578644,13 8,12.6642136 8,12.25 C8,11.8357864 8.33578644,11.5 8.75,11.5 Z\" id=\"矩形\" fill=\"#FFFFFF\" opacity=\"0.300000012\"></path>",
+          "section": ".rdata",
+          "rva": "0x8e484e2"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e46b29",
+          "encoding": "utf-8",
+          "context": "        <rect id=\"矩形\" fill=\"#FFFFFF\" opacity=\"0.300000012\" x=\"2\" y=\"11.5\" width=\"4\" height=\"1.5\" rx=\"0.75\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e48529"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e46c60",
+          "encoding": "utf-8",
+          "context": ".75,18 C8.33578644,18 8,17.6642136 8,17.25 C8,16.8357864 8.33578644,16.5 8.75,16.5 Z\" id=\"矩形\" fill=\"#FFFFFF\" opacity=\"0.300000012\"></path>",
+          "section": ".rdata",
+          "rva": "0x8e48660"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e46ca7",
+          "encoding": "utf-8",
+          "context": "        <rect id=\"矩形\" fill=\"#FFFFFF\" opacity=\"0.300000012\" x=\"2\" y=\"16.5\" width=\"4\" height=\"1.5\" rx=\"0.75\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e486a7"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e46db4",
+          "encoding": "utf-8",
+          "context": ".5522847,8 21,8 L9,8 C8.44771525,8 8,7.55228475 8,7 C8,6.44771525 8.44771525,6 9,6 Z\" id=\"矩形\" fill=\"#FFFFFF\" opacity=\"0.5\"></path>",
+          "section": ".rdata",
+          "rva": "0x8e487b4"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e46df3",
+          "encoding": "utf-8",
+          "context": "        <rect id=\"矩形\" fill=\"#FFFFFF\" opacity=\"0.5\" x=\"2\" y=\"6\" width=\"4\" height=\"2\" rx=\"1\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e487f3"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e49221",
+          "encoding": "utf-8",
+          "context": "            <rect id=\"矩形\" fill-opacity=\"0\" fill=\"#FFFFFF\" x=\"0\" y=\"0\" width=\"21\" height=\"21\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e4ac21"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e49e60",
+          "encoding": "utf-8",
+          "context": "            <rect id=\"矩形\" fill-opacity=\"0\" fill=\"#FFFFFF\" x=\"0\" y=\"0\" width=\"21\" height=\"21\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e4b860"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e4a854",
+          "encoding": "utf-8",
+          "context": "            <rect id=\"矩形\" fill-opacity=\"0\" fill=\"#FFFFFF\" x=\"0\" y=\"0\" width=\"21\" height=\"21\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e4c254"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8e4adf5",
+          "encoding": "utf-8",
+          "context": "            <rect id=\"矩形\" fill-opacity=\"0\" fill=\"#FFFFFF\" x=\"0\" y=\"0\" width=\"21\" height=\"21\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8e4c7f5"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8eb71cf",
+          "encoding": "utf-8",
+          "context": "                    <rect id=\"矩形\" x=\"0\" y=\"0\" width=\"20\" height=\"20.028169\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8eb8bcf"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8eb8b5c",
+          "encoding": "utf-8",
+          "context": "                    <rect id=\"矩形\" x=\"0\" y=\"1.42108547e-14\" width=\"20\" height=\"20.028169\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8eba55c"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8ebade7",
+          "encoding": "utf-8",
+          "context": "                        <rect id=\"矩形\" x=\"0\" y=\"0\" width=\"20\" height=\"20\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8ebc7e7"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8ec5b22",
+          "encoding": "utf-8",
+          "context": "                                <polygon id=\"矩形\" points=\"0.5 1.5 114.5 1.5 114.5 2.5 0.5 2.5\"></polygon>",
+          "section": ".rdata",
+          "rva": "0x8ec7522"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8ec5b8c",
+          "encoding": "utf-8",
+          "context": "                                <rect id=\"矩形备份\" x=\"134.5\" y=\"1.5\" width=\"114\" height=\"1\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8ec758c"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8ec6fe7",
+          "encoding": "utf-8",
+          "context": "            <rect id=\"矩形\" x=\"0\" y=\"0\" width=\"24\" height=\"24\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8ec89e7"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0x8ec769e",
+          "encoding": "utf-8",
+          "context": "            <rect id=\"矩形\" x=\"0\" y=\"0\" width=\"24\" height=\"24\"></rect>",
+          "section": ".rdata",
+          "rva": "0x8ec909e"
+        },
+        {
+          "term": "矩形",
+          "file_offset": "0xb2e34f2",
+          "encoding": "utf-8",
+          "context": "矩形",
+          "section": ".data",
+          "rva": "0xb2e50f2"
+        },
+        {
+          "term": "提取文字",
+          "file_offset": "0xb2d4e4e",
+          "encoding": "utf-8",
+          "context": "提取文字",
+          "section": ".data",
+          "rva": "0xb2d6a4e"
+        },
+        {
+          "term": "提取文字",
+          "file_offset": "0xb2e3349",
+          "encoding": "utf-8",
+          "context": "提取文字、翻译等",
+          "section": ".data",
+          "rva": "0xb2e4f49"
+        },
+        {
+          "term": "提取文字",
+          "file_offset": "0xb2e3370",
+          "encoding": "utf-8",
+          "context": "提取文字",
+          "section": ".data",
+          "rva": "0xb2e4f70"
+        },
+        {
+          "term": "提取文字",
+          "file_offset": "0xb2f6d34",
+          "encoding": "utf-8",
+          "context": "提取文字",
+          "section": ".data",
+          "rva": "0xb2f8934"
+        },
+        {
+          "term": "提取文字",
+          "file_offset": "0xb305de9",
+          "encoding": "utf-8",
+          "context": "提取文字、翻譯等",
+          "section": ".data",
+          "rva": "0xb3079e9"
+        },
+        {
+          "term": "提取文字",
+          "file_offset": "0xb305e10",
+          "encoding": "utf-8",
+          "context": "提取文字",
+          "section": ".data",
+          "rva": "0xb307a10"
+        }
+      ],
+      "screenshot_label_region": [
+        {
+          "text": "提取文字、翻译等",
+          "file_offset": "0xb2e3349",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4f49"
+        },
+        {
+          "text": "用 AI 处理",
+          "file_offset": "0xb2e3362",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4f62"
+        },
+        {
+          "text": "提取文字",
+          "file_offset": "0xb2e3370",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4f70"
+        },
+        {
+          "text": "更多...",
+          "file_offset": "0xb2e337d",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4f7d"
+        },
+        {
+          "text": "打马赛克",
+          "file_offset": "0xb2e3387",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4f87"
+        },
+        {
+          "text": "消除杂物",
+          "file_offset": "0xb2e3394",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4f94"
+        },
+        {
+          "text": "翻译",
+          "file_offset": "0xb2e33a1",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4fa1"
+        },
+        {
+          "text": "色值",
+          "file_offset": "0xb2e33f6",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4ff6"
+        },
+        {
+          "text": "裁剪",
+          "file_offset": "0xb2e33fd",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e4ffd"
+        },
+        {
+          "text": "图片编辑",
+          "file_offset": "0xb2e3404",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5004"
+        },
+        {
+          "text": "退出",
+          "file_offset": "0xb2e3411",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5011"
+        },
+        {
+          "text": "按 Ctrl+C 复制色值",
+          "file_offset": "0xb2e3418",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5018"
+        },
+        {
+          "text": "图片过大，暂不支持编辑",
+          "file_offset": "0xb2e3447",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5047"
+        },
+        {
+          "text": "滚动截图",
+          "file_offset": "0xb2e3469",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5069"
+        },
+        {
+          "text": "截图中断，返回中断位置继续滚动",
+          "file_offset": "0xb2e3476",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5076"
+        },
+        {
+          "text": "已达最大长度，无法继续截图",
+          "file_offset": "0xb2e34a4",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e50a4"
+        },
+        {
+          "text": "滚动页面截取更多内容",
+          "file_offset": "0xb2e34cc",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e50cc"
+        },
+        {
+          "text": "坐标",
+          "file_offset": "0xb2e34eb",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e50eb"
+        },
+        {
+          "text": "矩形",
+          "file_offset": "0xb2e34f2",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e50f2"
+        },
+        {
+          "text": "还原",
+          "file_offset": "0xb2e34f9",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e50f9"
+        },
+        {
+          "text": "收藏",
+          "file_offset": "0xb2e3500",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5100"
+        },
+        {
+          "text": "一键打码",
+          "file_offset": "0xb2e3507",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5107"
+        },
+        {
+          "text": "箭头",
+          "file_offset": "0xb2e3514",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5114"
+        },
+        {
+          "text": "问 AI",
+          "file_offset": "0xb2e351b",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e511b"
+        },
+        {
+          "text": "问 AI｜由元宝提供",
+          "file_offset": "0xb2e3522",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5122"
+        },
+        {
+          "text": "完成",
+          "file_offset": "0xb2e353b",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e513b"
+        },
+        {
+          "text": "编辑",
+          "file_offset": "0xb2e3542",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5142"
+        },
+        {
+          "text": "椭圆",
+          "file_offset": "0xb2e3549",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5149"
+        },
+        {
+          "text": "表情",
+          "file_offset": "0xb2e3550",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5150"
+        },
+        {
+          "text": "转发",
+          "file_offset": "0xb2e3557",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5157"
+        },
+        {
+          "text": "马赛克",
+          "file_offset": "0xb2e355e",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e515e"
+        },
+        {
+          "text": "画笔",
+          "file_offset": "0xb2e3568",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5168"
+        },
+        {
+          "text": "置顶在桌面",
+          "file_offset": "0xb2e356f",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e516f"
+        },
+        {
+          "text": "二维码",
+          "file_offset": "0xb2e357f",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e517f"
+        },
+        {
+          "text": "保存图片",
+          "file_offset": "0xb2e3589",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5189"
+        },
+        {
+          "text": "文字",
+          "file_offset": "0xb2e3596",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e5196"
+        },
+        {
+          "text": "撤销",
+          "file_offset": "0xb2e359d",
+          "encoding": "utf-8",
+          "section": ".data",
+          "rva": "0xb2e519d"
+        }
+      ],
+      "limitations": [
+        "ASCII 连续可打印字节扫描与已列出的中文词精确编码扫描。",
+        "中文每词每编码最多 30 个样本；count 为整文件匹配数。",
+        "文件偏移是原文件位置；RVA 根据 PE 节表推导，不是调用地址。",
+        "字符串存在不能证明执行、调用关系、算法或功能可独立加载。",
+        "不搜索压缩/加密字节的明文，不断言未命中的词不存在于整个程序。"
+      ]
+    }
+  ]
+}

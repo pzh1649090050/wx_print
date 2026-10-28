@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net7.0-windows10.0.19041.0</TargetFramework><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup><Compile Include="Program.cs"/><Compile Include="../app/HotkeyRules.cs" Link="HotkeyRules.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../app/SelectionMath.cs" Link="SelectionMath.cs"/><Compile Include="../app/ImageStitcher.cs" Link="ImageStitcher.cs"/><Compile Include="../app/Annotation.cs" Link="Annotation.cs"/><Compile Include="../app/ImageRenderer.cs" Link="ImageRenderer.cs"/><Compile Include="../app/ImageLayout.cs" Link="ImageLayout.cs"/><Compile Include="../app/OcrService.cs" Link="OcrService.cs"/><Compile Include="../app/IconPainter.cs" Link="IconPainter.cs"/><Compile Include="../app/Native.cs" Link="Native.cs"/></ItemGroup>
+</Project>
